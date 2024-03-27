@@ -1,0 +1,24 @@
+// {
+//       "presets": [
+//             "@babel/preset-env",
+//             "@babel/preset-react",
+//             "@babel/preset-typescript"
+//       ],
+//       "plugins": [
+//             ["import", { "libraryName": "antd", "style": true }]
+//           ]
+// }
+{
+      "presets": [
+        "@babel/preset-env",
+        "@babel/preset-typescript", // 如果你使用的是 TypeScript
+        "@babel/preset-react" // 如果你使用的是 React
+      ],
+      "plugins": [
+        ["import", {
+          "libraryName": "antd",
+          "libraryDirectory": "es",
+          "style": true // `style: true` 会加载 less 文件
+        }]
+      ]
+    }

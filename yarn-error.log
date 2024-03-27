@@ -1,0 +1,69 @@
+Arguments: 
+  /Users/yubinghua/.nvm/versions/node/v18.10.0/bin/node /Users/yubinghua/.yarn/bin/yarn.js add --dev @rollup/plugin-postcss
+
+PATH: 
+  /Users/yubinghua/.yarn/bin:/Users/yubinghua/.config/yarn/global/node_modules/.bin:/Applications/SASE.app/Contents/Services:/Users/yubinghua/.nvm/versions/node/v18.10.0/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/yubinghua/.yarn/bin:/Users/yubinghua/.config/yarn/global/node_modules/.bin:/Applications/SASE.app/Contents/Services:/Users/yubinghua/.nvm/versions/node/v18.10.0/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.10.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@rollup%2fplugin-postcss: Not found
+      at params.callback [as _callback] (/Users/yubinghua/.yarn/lib/cli.js:66145:18)
+      at self.callback (/Users/yubinghua/.yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/Users/yubinghua/.yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/Users/yubinghua/.yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "my-react-library",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "build": "rollup -c"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "antd": "^5.15.4",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "tslib": "^2.6.2"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.24.3",
+      "@babel/preset-env": "^7.24.3",
+      "@babel/preset-react": "^7.24.1",
+      "@babel/preset-typescript": "^7.24.1",
+      "@rollup/plugin-babel": "^6.0.4",
+      "@rollup/plugin-commonjs": "^25.0.7",
+      "@rollup/plugin-node-resolve": "^15.2.3",
+      "@rollup/plugin-typescript": "^11.1.6",
+      "@types/react": "^18.2.71",
+      "@types/react-dom": "^18.2.22",
+      "rollup": "^2.79.1",
+      "rollup-plugin-peer-deps-external": "^2.2.4",
+      "rollup-plugin-terser": "^7.0.2",
+      "typescript": "^5.4.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

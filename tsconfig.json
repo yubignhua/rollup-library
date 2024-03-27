@@ -1,0 +1,9 @@
+{
+      "compilerOptions": {
+        "module": "ESNext",
+        "target": "ESNext",
+        "jsx": "react", // 确保这个选项被设置为 "react"
+        // ...其他选项
+      },
+      // ...其他选项
+    }
